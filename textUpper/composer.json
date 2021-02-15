@@ -1,0 +1,21 @@
+{
+    "name": "alan/text-upper",
+    "description": "Un pequeño proyecto para convertir texto en mayusculas",
+    "type": "project",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Text\\":"src/"
+        },
+        "files": [
+            "src/helpers.php"
+        ]
+    },
+    "authors": [
+        {
+            "name": "Aland3v",
+            "email": "aland3v@gmail.com"
+        }
+    ],
+    "require": {}
+}
