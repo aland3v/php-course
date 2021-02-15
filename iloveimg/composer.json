@@ -1,0 +1,15 @@
+{
+    "name": "alan/iloveimg",
+    "description": "Un proyecto para probar la API de iloveimg",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Aland3v",
+            "email": "aland3v@gmail.com"
+        }
+    ],
+    "require": {
+        "ilovepdf/iloveimg-php": "^1.1"
+    }
+}

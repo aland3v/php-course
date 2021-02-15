@@ -1,0 +1,64 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "3348a16f180f009f98e73e31ca64ce0f",
+    "packages": [
+        {
+            "name": "ilovepdf/iloveimg-php",
+            "version": "v1.1.15",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/ilovepdf/iloveimg-php.git",
+                "reference": "e825be5c31c81971b52caebd372e54846528c7f4"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/ilovepdf/iloveimg-php/zipball/e825be5c31c81971b52caebd372e54846528c7f4",
+                "reference": "e825be5c31c81971b52caebd372e54846528c7f4",
+                "shasum": ""
+            },
+            "require": {
+                "ext-curl": "*",
+                "php": ">=7.1"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^7.1"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Iloveimg\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "iloveimg",
+                    "email": "info@iloveimg.com"
+                }
+            ],
+            "description": "iLoveIMG Php Api",
+            "homepage": "https://iloveimg.com/",
+            "support": {
+                "issues": "https://github.com/ilovepdf/iloveimg-php/issues",
+                "source": "https://github.com/ilovepdf/iloveimg-php/tree/v1.1.15"
+            },
+            "time": "2019-05-30T12:35:52+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": [],
+    "plugin-api-version": "2.0.0"
+}
