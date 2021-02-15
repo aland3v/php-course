@@ -2,4 +2,5 @@
 
 require __DIR__ . '/vendor/autoload.php';
 
-echo upper('hola');
+echo 'Texto en mayuscula: '.upper('hola').'<br/>';
+echo 'Texto en minuscula: '.lower('HOLA').'<br/>';
