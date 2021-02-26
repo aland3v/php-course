@@ -1,0 +1,23 @@
+{
+    "name": "alan/prueba3",
+    "description": "Probando composer",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Aland3v",
+            "email": "aland3v@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Code\\": "src/",
+            "Dir\\": "dir/"
+        },
+        "files": [
+            "src/helpers.php"
+        ]
+    },
+    "minimum-stability": "stable",
+    "require": {}
+}

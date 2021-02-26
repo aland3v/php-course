@@ -1,0 +1,21 @@
+{
+    "name": "alan/prueba2",
+    "description": "proyecto de prueba",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Aland3v",
+            "email": "aland3v@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Code\\": "src/"
+        },
+        "files": [
+            "src/helpers.php"
+        ]
+    },
+    "require": {}
+}
